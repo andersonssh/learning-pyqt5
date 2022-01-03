@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>419</width>
+    <height>277</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>90</y>
+      <width>211</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>COR ESCOLHIDA:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="escolha">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>156</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>419</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCores">
+    <property name="title">
+     <string>Cores</string>
+    </property>
+    <addaction name="action_verde"/>
+    <addaction name="action_azul"/>
+    <addaction name="action_vermelho"/>
+   </widget>
+   <addaction name="menuCores"/>
+  </widget>
+  <action name="action_verde">
+   <property name="text">
+    <string>verde</string>
+   </property>
+  </action>
+  <action name="action_azul">
+   <property name="text">
+    <string>azul</string>
+   </property>
+  </action>
+  <action name="action_vermelho">
+   <property name="text">
+    <string>vermelho</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
